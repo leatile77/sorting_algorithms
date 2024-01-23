@@ -3,9 +3,10 @@
 #include "sort.h"
 
 /**
- * bubble_sort - Function that sorts array of ints in ascending order using bubble sorting
- * @array: array of integers to sort
- * @size: size of array
+ * bubble_sort - Function that sorts an array of integers
+ * in ascending order using bubble sorting.
+ * @array: array of integers to sort.
+ * @size: size of array.
  *
  * Return: void
  */
