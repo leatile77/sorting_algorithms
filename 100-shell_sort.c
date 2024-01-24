@@ -34,7 +34,12 @@ int tmp;
 size_t i, j, k;
 k = 1;
 
-while (k < size / 3)
+if (array == NULL || size < 2)
+{
+return;
+}
+ 
+while (k < (size / 3))
 {
 k = k * 3 + 1;
 }
@@ -51,6 +56,6 @@ swap(&array[j], &array[j - k]);
 }
 print_array(array, size);
 
-k = (k - 1) / 3;
+k /= 3;
 }
 }
